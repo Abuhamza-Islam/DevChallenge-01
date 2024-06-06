@@ -1,0 +1,40 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0; /* Optional background color for the page */
+}
+
+.card {
+  width: 40%;
+  background-color: #fff; /* White background */
+  box-shadow: inset 0 4px 6px rgba(0, 0, 0, 0.1),
+    /* subtle inset shadow */ inset 0 -4px 6px rgba(0, 0, 0, 0.05); /* subtle bottom shadow */
+  border: 1px solid #ddd; /* Optional border to enhance the effect */
+  padding: 20px; /* Optional padding */
+  border-radius: 10px; /* Optional rounded corners */
+}
+
+.banner img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+button {
+  border: 0px;
+  border-radius: 10px;
+  padding: 3px 20px 3px 20px;
+  background-color: rgb(187, 170, 232);
+  color: rgb(114, 66, 236);
+}
+@media screen and (max-width: 640px) {
+  .card {
+    width: 400px;
+  }
+}
